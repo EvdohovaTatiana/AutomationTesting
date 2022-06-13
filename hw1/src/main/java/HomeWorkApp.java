@@ -7,7 +7,7 @@ public class HomeWorkApp {
 
     }
 /* Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.*/
-    private static void printThreeWords() {
+    public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
@@ -17,7 +17,7 @@ public class HomeWorkApp {
     значениями, которыми захотите. Далее метод должен просуммировать эти переменные, и если их сумма больше или равна 0,
      то вывести в консоль сообщение“Сумма положительная”, в противном случае - “Сумма отрицательная”;*/
 
-    private static void checkSumSign() {
+    public static void checkSumSign() {
         int a = 5;
         int b = -10;
         int c = a + b;
